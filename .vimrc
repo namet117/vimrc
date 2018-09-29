@@ -59,6 +59,7 @@ Plug 'junegunn/vim-easy-align'
 
 Plug 'StanAngeloff/php.vim'
 
+" 目录插件NERDTree
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
 
@@ -70,3 +71,7 @@ call plug#end()
 
 " 让配置变更立即生效
 autocmd BufWritePost $MYVIMRC source $MYVIMRC
+" 自动进入工作目录
+autocmd BufEnter * cd %:p:h
+" 进入自动打开NERDTree
+au VimEnter * NERDTree
