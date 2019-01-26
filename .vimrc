@@ -2,6 +2,9 @@
 set nobackup
 set nowb
 set noswapfile
+" 关闭BELL提示音
+set noeb
+set vb t_vb=
 
 set nocompatible
 set nu
