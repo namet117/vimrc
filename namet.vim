@@ -63,7 +63,6 @@ inoremap [ []<ESC>i
 inoremap { {}<ESC>i
 inoremap < <><ESC>i
 inoremap ' ''<ESC>i
-inoreMap " ""<ESC>i
 
 " ---------- vim-plug begin ----------------
 call plug#begin('~/.vim/plugins')
