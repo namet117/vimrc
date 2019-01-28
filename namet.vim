@@ -57,10 +57,18 @@ set helplang=cn
 " 设置超时时间 500ms
 set timeoutlen=500
 
+" 设置括号自动补全
+inoremap ( ()<ESC>i
+inoremap [ []<ESC>i
+inoremap { {}<ESC>i
+inoremap < <><ESC>i
+inoremap ' ''<ESC>i
+inoreMap " ""<ESC>i
+
 " ---------- vim-plug begin ----------------
 call plug#begin('~/.vim/plugins')
 
-" Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
+noremap ( ()<ESC>i" Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
 Plug 'junegunn/vim-easy-align'
 
 Plug 'StanAngeloff/php.vim'
