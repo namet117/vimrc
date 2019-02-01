@@ -110,7 +110,7 @@ call plug#end()
 " 让配置变更立即生效
 au BufWritePost $MYVIMRC source $MYVIMRC
 " 自动进入工作目录
-au BufEnter * cd %:p:h
+" au BufEnter * cd %:p:h
 
 """"""""""""NERDTree""""""""""""""
 " 进入自动打开NERDTree
