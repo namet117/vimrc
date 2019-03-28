@@ -58,11 +58,11 @@ set helplang=cn
 set timeoutlen=500
 
 " 设置括号自动补全
-inoremap ( ()<ESC>i
-inoremap [ []<ESC>i
-inoremap { {}<ESC>i
-inoremap < <><ESC>i
-inoremap ' ''<ESC>i
+" inoremap ( ()<ESC>i
+" inoremap [ []<ESC>i
+" inoremap { {}<ESC>i
+" inoremap < <><ESC>i
+" inoremap ' ''<ESC>i
 
 " ---------- vim-plug begin ----------------
 call plug#begin('~/.vim/plugins')
@@ -104,6 +104,8 @@ Plug 'mattn/emmet-vim'
 " GIT 管理
 Plug 'airblade/vim-gitgutter'
 
+" 支持EditorConfig
+Plug 'editorconfig/editorconfig-vim'
 
 call plug#end()
 
