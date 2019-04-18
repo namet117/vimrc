@@ -67,7 +67,8 @@ set timeoutlen=500
 " ---------- vim-plug begin ----------------
 call plug#begin('~/.vim/plugins')
 
-noremap ( ()<ESC>i" Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
+noremap ( ()<ESC>i
+" Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
 Plug 'junegunn/vim-easy-align'
 
 Plug 'StanAngeloff/php.vim'
