@@ -71,6 +71,9 @@ noremap ( ()<ESC>i
 " Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
 Plug 'junegunn/vim-easy-align'
 
+" YouCompleteMe
+" Plug 'Valloric/YouCompleteMe'
+
 Plug 'StanAngeloff/php.vim'
 
 " 目录插件NERDTree
